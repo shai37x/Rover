@@ -1,0 +1,32 @@
+/* src/Components/Home.css */
+.home {
+    height: 100vh; /* Adjust to leave space for the navbar and footer */
+    background: url('/public/images/homeimg.jpeg') no-repeat fixed center/cover; /* Replace with your own image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  .trynow {
+    width: 75px;
+    /* padding: 10px 20px; */
+    font-size: 15px;
+    background-color: #ff6b6b;opacity: 0.7;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .try-button:hover {
+    background-color: #ff4b4b;
+  }
+  

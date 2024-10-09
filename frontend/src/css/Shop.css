@@ -1,0 +1,51 @@
+/* Slider */
+#slides-shop {
+    position: relative;
+}
+.slides-container li {
+    position: relative;
+}
+.slides-navigation a {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Categories */
+.categories-shop .shop-cat-box {
+    margin-bottom: 30px;
+    position: relative;
+    text-align: center;
+}
+.categories-shop img {
+    width: 100%;
+}
+
+/* Products */
+.products-box {
+    margin-top: 50px;
+}
+.products-box .title-all {
+    margin-bottom: 50px;
+}
+.products-box .why-text {
+    text-align: center;
+    padding-top: 10px;
+}
+.products-single img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Blog */
+.latest-blog .title-all {
+    margin-bottom: 40px;
+}
+.blog-box {
+    margin-bottom: 30px;
+}
+.blog-box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}

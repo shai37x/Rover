@@ -1,0 +1,129 @@
+/* General container styling */
+.register-container {
+    max-width: 350px;  /* Reduced container width */
+    margin: 70px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Slightly smaller width */
+    box-sizing: border-box;
+
+  }
+  
+  /* Header styling */
+  .register-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 22px;  /* Reduced font size */
+  }
+  
+  /* Form group styling for label and input alignment */
+  .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;  /* Reduced margin between fields */
+  }
+  
+  /* Label styling to position on the left side */
+  .form-group label {
+    flex-basis: 40%;  /* Slightly increased to keep text visible with smaller input */
+    font-size: 13px;  /* Reduced font size */
+    color: #555;
+    margin-right: 8px;
+  }
+  
+  /* Input fields styling */
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    flex-basis: 60%;  /* Reduced input field width */
+    padding: 6px;  /* Reduced padding for smaller inputs */
+    font-size: 13px;  /* Reduced font size */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Input fields focus state */
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    border-color: #66afe9;
+    outline: none;
+  }
+  
+  /* Error message styling */
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 40%;  /* Adjusted to match smaller fields */
+    display: block;
+  }
+  
+  /* Button styling */
+  button {
+    width: 100%;
+    padding: 8px;  /* Reduced button padding */
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;  /* Slightly smaller font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive design for mobile screens */
+  @media (max-width: 600px) {
+    .register-container {
+      padding: 10px;
+      width: 90%;  /* Reduced width on smaller screens */
+    }
+  
+    .form-group {
+      flex-direction: column;  /* Stack the label and input vertically on smaller screens */
+      align-items: flex-start;
+    }
+  
+    .form-group label {
+      margin-right: 0;
+      margin-bottom: 5px;
+      flex-basis: auto;
+    }
+  
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      flex-basis: 100%;  /* Full width for mobile screens */
+    }
+  
+    .register-container h2 {
+      font-size: 18px;
+    }
+  
+    button {
+      font-size: 13px;
+      padding: 7px;
+    }
+  
+    .form-group label {
+      font-size: 12px;
+    }
+  
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      font-size: 12px;
+      padding: 6px;
+    }
+  }
+  
